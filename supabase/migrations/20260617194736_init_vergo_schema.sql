@@ -1,4 +1,4 @@
--- 1. INDEPENDENT TABLES (No Foreign Keys)
+
 CREATE TABLE role (
   role_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   role_name TEXT UNIQUE NOT NULL
